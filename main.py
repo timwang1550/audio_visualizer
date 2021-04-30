@@ -1,6 +1,6 @@
 """
 Main file for recording audio input and data parsing
-Fourier Transform and rellocating peaks to audio bins
+Fourier Transform and moving peaks to audio bins
 for displaying
 """
 
@@ -24,7 +24,6 @@ BAUD_RATE = 19200
 BIN_COUNT = 8
 BIN_HEIGHT = 7
 LED_COUNT = 56
-
 
 
 def main():
@@ -122,5 +121,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-
